@@ -1,13 +1,13 @@
-package com.randomwepon.game;
+package com.randomwepon.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GameApplication {
+public class WebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GameApplication.class, args);
+		SpringApplication.run(WebApplication.class, args);
 	}
 
 }
